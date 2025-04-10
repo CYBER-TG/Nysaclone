@@ -9,18 +9,18 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID","25504446"))
-API_HASH = getenv("API_HASH","47db27cde56c3e4690e244e6de10f919")
+API_ID = int(getenv("API_ID","27345751"))
+API_HASH = getenv("API_HASH","2f4074e9f5a56e99fd9ba562f2314523")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","SourabhProfessor")
+OWNER_USERNAME = getenv("OWNER_USERNAME","ll_Unique_Person_ll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "DivyanshiXMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Nysamusicbot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" ,  "")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Divyanshi")
+ASSUSERNAME = getenv("ASSUSERNAME" , "NYSA MUSIC")
 # ---------------------------------------------------------
 
 
@@ -36,10 +36,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001951276489))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002260119965))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7564329827))
+OWNER_ID = int(getenv("OWNER_ID", 7391857972))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -68,10 +68,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ProfessorSourabh")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProfessorXSupport")
-SOURCE = getenv("SOURCE", "https://t.me/DivyanshiXMusicBot")
-CHAT = getenv("CHAT", "https://t.me/ProfessorXSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/StylishNamesFont")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+cjBIMqIH71BjNjc1")
+SOURCE = getenv("SOURCE", "https://t.me/Nysamusicbot")
+CHAT = getenv("CHAT", "https://t.me/FRIEND_KI_MASTI")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -180,4 +180,4 @@ if SUPPORT_CHAT:
 # ----------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------
 
-CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1001951276489))
+CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1002260119965))
